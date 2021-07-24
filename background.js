@@ -1,4 +1,4 @@
-var host = "https://smile.amazon.de";
+const host = "https://smile.amazon.de";
 chrome.webRequest.onBeforeRequest.addListener(
   (details) => {
     return {
@@ -12,7 +12,6 @@ chrome.webRequest.onBeforeRequest.addListener(
       "sub_frame",
       "stylesheet",
       "script",
-      "image",
       "object",
       "xmlhttprequest",
       "other",
