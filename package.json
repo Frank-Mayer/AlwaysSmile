@@ -7,6 +7,9 @@
   "author": "Frank <mail@frank-mayer.io>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
   "devDependencies": {
     "@types/chrome": "^0.0.159"
   }
