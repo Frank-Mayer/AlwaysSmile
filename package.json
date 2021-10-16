@@ -1,0 +1,13 @@
+{
+  "name": "always-smile",
+  "version": "1.1.0",
+  "description": "Du wirst immer automatisch auf Amazon smile weitergeleitet wenn du dich auf einer anderen Amazon Domain befindest.",
+  "main": "background.js",
+  "repository": "https://github.com/Frank-Mayer/AlwaysSmile.git",
+  "author": "Frank <mail@frank-mayer.io>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/chrome": "^0.0.159"
+  }
+}
